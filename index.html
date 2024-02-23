@@ -1,22 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		<title>Firefly Render - three.js</title>
-		<meta charset="utf-8">
-		<meta content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" name="viewport">
-        <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="loading.css">
-	</head>
-	<body>
-		<script type="importmap">
-			{
-				"imports": {
-					"three": "./library/three.module.js",
-					"three/addons/": "./library/modules/"
-				}
-			}
-		</script>
-		<div class="loading">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firefly Render - three.js</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loading.css">
+  </head>
+  <body>
+    <div class="loading">
 			<div class="loadingIcon">
 				<div class="item">
 					<div class="circle-group-1">
@@ -34,8 +26,6 @@
 				</div>
 			</div>
 		</div>
-		<script type="module" src="main.js"></script>
-
-	</body>
-
+    <script type="module" src="src/main.js"></script>
+  </body>
 </html>

@@ -7,7 +7,7 @@
     justify-content: center;
     transition: opacity 250ms ease;
 }
-.hidden {
+.loading_out {
     opacity: 0;
     pointer-events: none;
 }

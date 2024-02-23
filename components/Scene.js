@@ -39,6 +39,7 @@ async function Init() {
 
     await Model.Init(characterName, function(object){
         scene.add(object)
+        document.querySelector('.loading').classList.add('hidden')
         animate()
     });
     
